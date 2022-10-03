@@ -1,0 +1,49 @@
+2022-10-03 16:01:00 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16.1 on umut-ThinkPad-E14-Gen-2 with PID 349864 (/media/umut/Storage/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by umut in /media/umut/Storage/IdeaProjects/microservices-demo)
+2022-10-03 16:01:00 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-03 16:01:01 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.528 seconds (JVM running for 1.057)
+2022-10-03 16:01:01 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - App is starting...
+2022-10-03 16:01:01 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-03 16:02:31 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16.1 on umut-ThinkPad-E14-Gen-2 with PID 350005 (/media/umut/Storage/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by umut in /media/umut/Storage/IdeaProjects/microservices-demo)
+2022-10-03 16:02:31 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-03 16:02:31 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.534 seconds (JVM running for 1.033)
+2022-10-03 16:02:31 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - App is starting...
+2022-10-03 16:02:31 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-03 16:02:31 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-10-03 16:27:08 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16.1 on umut-ThinkPad-E14-Gen-2 with PID 354436 (/media/umut/Storage/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by umut in /media/umut/Storage/IdeaProjects/microservices-demo)
+2022-10-03 16:27:08 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-03 16:27:09 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.753 seconds (JVM running for 1.187)
+2022-10-03 16:27:09 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - App is starting...
+2022-10-03 16:27:09 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-03 16:27:09 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-10-03 17:24:18 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.16.1 on umut-ThinkPad-E14-Gen-2 with PID 361901 (/media/umut/Storage/IdeaProjects/microservices-demo/twitter-to-kafka-service/target/classes started by umut in /media/umut/Storage/IdeaProjects/microservices-demo)
+2022-10-03 17:24:18 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-03 17:24:19 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.51 seconds (JVM running for 1.016)
+2022-10-03 17:24:19 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - App is starting...
+2022-10-03 17:24:19 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2022-10-03 17:24:19 [main] INFO  c.m.d.t.TwitterToKafkaServiceApplication - Hello Microservices!
+2022-10-03 17:24:19 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-10-03 17:24:19 [main] INFO  c.m.d.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2022-10-03 17:24:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2022-10-03 17:24:20 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 10000 milliseconds
+2022-10-03 17:24:30 [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-10-03 17:24:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2022-10-03 17:24:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 20000 milliseconds
+2022-10-03 17:24:39 [SpringApplicationShutdownHook] INFO  c.m.d.t.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
