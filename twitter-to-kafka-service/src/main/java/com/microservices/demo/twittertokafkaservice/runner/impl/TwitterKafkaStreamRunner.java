@@ -1,12 +1,11 @@
 package com.microservices.demo.twittertokafkaservice.runner.impl;
 
-import com.microservices.demo.twittertokafkaservice.config.TwitterToKafkaServiceConfigData;
+import com.microservices.demo.appconfigdata.TwitterToKafkaServiceConfigData;
 import com.microservices.demo.twittertokafkaservice.listener.TwitterKafkaStatusListener;
 import com.microservices.demo.twittertokafkaservice.runner.StreamRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 import twitter4j.FilterQuery;
 import twitter4j.TwitterException;
