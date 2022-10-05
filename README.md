@@ -1,4 +1,4 @@
-# Event-Driven-Microservice-Demo
+# Twitter Streamer
 https://www.udemy.com/course/event-driven-microservices-spring-boot-kafka-and-elasticsearch/
 
 
